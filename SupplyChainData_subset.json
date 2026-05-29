@@ -1,0 +1,292 @@
+[
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2016-03-30",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Elizabeth",
+      "cus.street": "7573 Golden Treasure Centre",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 2,
+      "ordit.discount": 4.0,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Nike Men's Dri-FIT Victory Golf Polo",
+        "prod.price": 50.0,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Women's Apparel",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Golf"
+          }
+        }
+      }
+    }
+  },
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2016-10-30",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Katherine",
+      "cus.street": "8369 Sunny Crossing",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 2,
+      "ordit.discount": 4.0,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Under Armour Girls' Toddler Spine Surge Runni",
+        "prod.price": 39.99000168,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Shop By Sport",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Golf"
+          }
+        }
+      }
+    }
+  },
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2016-11-28",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Mary",
+      "cus.street": "1425 Fallen Fox Arbor",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 2,
+      "ordit.discount": 9.0,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Nike Men's Dri-FIT Victory Golf Polo",
+        "prod.price": 50.0,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Women's Apparel",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Golf"
+          }
+        }
+      }
+    }
+  },
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2016-12-31",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Dennis",
+      "cus.street": "2290 Crystal Pathway",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 2,
+      "ordit.discount": 13.0,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Nike Men's Dri-FIT Victory Golf Polo",
+        "prod.price": 50.0,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Women's Apparel",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Golf"
+          }
+        }
+      }
+    }
+  },
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2015-10-25",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Mary",
+      "cus.street": "6179 Noble Panda Moor",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 2,
+      "ordit.discount": 18.0,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Nike Men's Dri-FIT Victory Golf Polo",
+        "prod.price": 50.0,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Women's Apparel",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Golf"
+          }
+        }
+      }
+    }
+  },
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2016-06-11",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Mary",
+      "cus.street": "8205 Silver Grove Row",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 2,
+      "ordit.discount": 15.30000019,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Under Armour Men's Compression EV SL Slide",
+        "prod.price": 44.99000168,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Electronics",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Footwear"
+          }
+        }
+      }
+    }
+  },
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2016-08-24",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Frances",
+      "cus.street": "7786 Middle Private",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 2,
+      "ordit.discount": 19.79000092,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Under Armour Women's Micro G Skulpt Running S",
+        "prod.price": 54.97000122,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Boxing & MMA",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Footwear"
+          }
+        }
+      }
+    }
+  },
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2016-04-13",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Alice",
+      "cus.street": "4294 High Passage",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 2,
+      "ordit.discount": 2.400000095,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Perfect Fitness Perfect Rip Deck",
+        "prod.price": 59.99000168,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Cleats",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Apparel"
+          }
+        }
+      }
+    }
+  },
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2016-05-22",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Kyle",
+      "cus.street": "5274 Easy Beach",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 2,
+      "ordit.discount": 24.0,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Perfect Fitness Perfect Rip Deck",
+        "prod.price": 59.99000168,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Cleats",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Apparel"
+          }
+        }
+      }
+    }
+  },
+  {
+    "dgraph.type": "Order",
+    "ord.date": "2016-10-04",
+    "ord.status": "PENDING_PAYMENT",
+    "ord.customer": {
+      "dgraph.type": "Customer",
+      "cus.Fname": "Brenda",
+      "cus.street": "4692 Jagged Thicket",
+      "cus.segment": "Home Office"
+    },
+    "ord.items": {
+      "dgraph.type": "OrderItem",
+      "ordit.quantity": 3,
+      "ordit.discount": 36.0,
+      "ordit.product": {
+        "dgraph.type": "Product",
+        "prod.name": "Nike Men's Free 5.0+ Running Shoe",
+        "prod.price": 99.98999786,
+        "prod.category": {
+          "dgraph.type": "Category",
+          "cate.name": "Cardio Equipment",
+          "cate.department": {
+            "dgraph.type": "Department",
+            "dep.name": "Footwear"
+          }
+        }
+      }
+    }
+  }
+]
